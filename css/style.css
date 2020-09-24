@@ -19,7 +19,7 @@ body {
   font-size: 15px;
   font-family: 'Spartan', sans-serif;
   max-width: 1440px;
-  background-image: url('images/bg-pattern-top-desktop.svg');
+  background-image: url('/images/bg-pattern-top-desktop.svg');
 }
 
 :root {
@@ -36,8 +36,7 @@ body {
 
 .container {
   max-width: 1110px;
-  margin: 0 auto;
-  margin-top: 120px;
+  margin: 120px auto 0 auto;
 }
 
 .flex1 {
@@ -55,7 +54,7 @@ body {
 
 .flex1 div p {
   max-width: 500px;
-  line-height: 24px;
+  line-height: 1.5em;
   color: var(--Dark-Grayish-Magenta);
   font-weight: 500;
 }
@@ -177,6 +176,7 @@ body {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }

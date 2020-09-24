@@ -1,0 +1,41 @@
+/*  estilos para tablet */
+
+@media (min-width: 750px) and (max-width: 990px) {
+
+}
+
+/* estilos para celular */
+
+@media (max-width: 749px) {
+  .container {
+    max-width: 375px;
+    margin: 120px auto 0 auto;
+  }
+
+  .flex1 {
+    max-width: 375px;
+    flex-direction: column;
+  }
+
+  .flex1 div h1 {
+    text-align: center;
+  }
+
+  .flex1 div p {
+    text-align: center;
+    max-width: 340px;
+    margin: 0 auto 60px auto;
+  }
+
+  #right50, #right100 {
+    position: static;
+  }
+
+  .flex2 {
+    flex-direction: column;
+  }
+
+  .card-item {
+    margin: 0;
+  }
+}
